@@ -1,0 +1,40 @@
+.header {
+  background-color: #1b013a;
+  padding: 10px;
+  height: 5rem;
+  align-content: center;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+}
+
+.header nav ul li {
+  margin: 0 10px;
+}
+
+.header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.header nav ul li a:hover {
+  color: #00a3ff;
+  text-decoration: none;
+}
+
+.btn-logout {
+  background-color: #ff007f;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.btn-logout:hover {
+  background-color: #00a3ff;
+}

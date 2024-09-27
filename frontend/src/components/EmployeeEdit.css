@@ -1,0 +1,79 @@
+/* src/components/Header.css */
+.container-eEdit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+}
+.screen-eEdit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #3b0a78;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 10px;
+  width: 60%;
+}
+.screen-eEdit h2 {
+  margin: 20px;
+}
+
+.form-edit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.label-group {
+  /* border: 2px solid; */
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 6rem;
+}
+
+.form-group {
+  /* border: 2px solid; */
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* margin-bottom: 1rem; */
+  width: 100%;
+}
+.input-edit {
+  background: #4e44a7;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  /* margin: 10px 0; */
+  color: #fff;
+  width: 100%;
+}
+.Designation {
+  padding: 10px;
+  margin: 10px;
+}
+.m1 {
+  margin: 10px;
+}
+
+.update-btn {
+  background: #00a3ff;
+  color: #fff;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 50%;
+}
+.update-btn:hover {
+  background-color: #008ace;
+}

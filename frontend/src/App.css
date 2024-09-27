@@ -1,0 +1,164 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #00a3ff;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #00a3ff;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #008ace;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li button {
+  background-color: #ff007f;
+}
+
+nav ul li button:hover {
+  background-color: #d6006b;
+}
+
+/* Form Styles */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select,
+form input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+form button {
+  width: 100%;
+  background-color: #00a3ff;
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #008ace;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: white;
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #00a3ff;
+  color: white;
+}
+
+table img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+table td a {
+  color: #00a3ff;
+  text-decoration: underline;
+}
+
+/* Search Bar */
+input[type="text"] {
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  form {
+    padding: 15px;
+  }
+}
