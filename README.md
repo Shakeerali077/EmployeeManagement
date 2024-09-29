@@ -171,6 +171,11 @@ Make sure you have the following installed:
 - Node.js
 - MongoDB Atlas (for online database)
 
+- need to create .env file and inside these detail shoud be there
+- MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/
+- PORT=5000
+- JWT_SECRET=your_jwt_secret
+
 ### Steps
 
 1. Clone the repository:
